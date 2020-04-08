@@ -1,0 +1,18 @@
+.mainHeader {
+    color: blueviolet;
+    font-size: 44px;
+}
+.secondHeader {
+    color: rgb(211, 20, 20);
+    font-size: 32px;
+}
+.sectionHeader {
+    color: rgb(0, 0, 0);
+    background-color: rgb(17, 223, 45);
+}
+.articleColor {
+    background-color: darkblue;
+}
+.articleHeader {
+    font-size: 44px;
+}
