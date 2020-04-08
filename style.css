@@ -1,3 +1,6 @@
+body {
+    background-color: darkgoldenrod;
+}
 .mainHeader {
     color: blueviolet;
     font-size: 44px;
