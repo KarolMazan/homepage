@@ -1,21 +1,52 @@
 body {
-    background-color: darkgoldenrod;
+    background-color: #ECE4B7;
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
 }
-.mainHeader {
-    color: blueviolet;
+.title {
+    color: #131515;
     font-size: 44px;
 }
-.secondHeader {
-    color: rgb(211, 20, 20);
-    font-size: 32px;
+.generals__header {
+    color: #004FFF;
 }
-.sectionHeader {
+.generals {
     color: rgb(0, 0, 0);
-    background-color: rgb(17, 223, 45);
+    
 }
-.articleColor {
-    background-color: darkblue;
+.generals__header--paragraph {
+    margin: 10px
 }
-.articleHeader {
-    font-size: 44px;
+.career {
+    color: #004FFF
+}
+.career__paragraph {
+    margin: 10px
+}
+.career__achievements {
+    color: #004FFF
+}
+.career__achievements--paragraph {
+    padding: 14px;
+    border: 3px solid yellow;
+    color: #131515
+}
+.career__records {
+    color: #004FFF
+
+}
+.career__records--paragraph {
+    color: #131515
+
+}
+.career__stats {
+    color: #004FFF
+
+}
+.career__stats--paragraph {
+    color: #131515
+}
+.footer {
+
 }
