@@ -9,9 +9,17 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">Strona glówna</a>
-        <a href="podstrona.html">Rekordy</a>
+    <header class="site__header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="index.html">Strona glówna</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="podstrona.html">Rekordy</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main id="main">
         <header>
@@ -31,18 +39,17 @@
         </section>
         <section>
             <h2 class="career">Kariera</h2>
-            <p class="career__paragraph">Początek przygody James'a z koszykowką.
-                <a href="podstrona1.html"><strong>klik</strong></a><br>
-
-                Pierwsze kroki w NBA.
-                <a href="podstrona2.html"><strong>klik</strong></a> <br>
-
-                Pierwsze Play-off dla LeBron'a.
-                <a href="podstrona3.html"><strong>klik</strong></a><br>
-
-                Osiągniecia w kadrze USA.
-                <a href="podstrona4.html"><strong>klik</strong></a><br>
-
+            <dl>
+                <dt>Początek przygody James'a z koszykowką.</dt>
+                <dd><a href="podstrona1.html"><strong>klik</strong></a></dd>
+                <dt>Pierwsze kroki w NBA.</dt>
+                <dd><a href="podstrona2.html"><strong>klik</strong></a></dd>
+                <dt>Pierwsze Play-off dla LeBron'a.</dt>
+                <dd><a href="podstrona3.html"><strong>klik</strong></a></dd>
+                <dt>Osiągniecia w kadrze USA.</dt>
+                <dd><a href="podstrona4.html"><strong>klik</strong></a></dd>
+            </dl>
+            <p class="career__paragraph">
                 Przejście do nowej druzyny Miami Heat.
                 <a href="podstrona5.html"><strong>klik</strong></a><br>
 
@@ -149,7 +156,7 @@
     </main>
     <footer class= "footer">
         Linki zewnetrzne <br>
-        Profil zawodnika na Nba.com
+        Profil zawodnika na stronie <a href="https://www.nba.com/players/Lebron/James/2544">NBA</a>
     </footer>
     <script src="main.js"></script>
 </body>

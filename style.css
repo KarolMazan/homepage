@@ -50,3 +50,25 @@ body {
 .footer {
 
 }
+.site__header {
+box-sizing: border-box;
+left: 0;
+padding: 16px;
+position: fixed;
+top: 0;
+width: 100%
+}
+.navigation {
+
+}
+.navigation__list {
+list-style: none;
+padding: 0;
+
+}
+.navigation__item {
+display: inline;
+}
+.navigation__link {
+
+}
