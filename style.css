@@ -1,74 +1,74 @@
 body {
-    background-color: #ECE4B7;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
     width: 100%;
     max-width: 700px;
     margin: 32px auto;
 }
+
 .title {
     color: #131515;
     font-size: 44px;
 }
+
 .generals__header {
     color: #004FFF;
 }
+
 .generals {
     color: rgb(0, 0, 0);
-    
 }
-.generals__header--paragraph {
+
+.generals__paragraph {
     margin: 10px
 }
+
 .career {
     color: #004FFF
 }
+
 .career__paragraph {
     margin: 10px
 }
+
 .career__achievements {
     color: #004FFF
 }
+
 .career__achievements--paragraph {
     padding: 14px;
     border: 3px solid yellow;
     color: #131515
 }
+
 .career__records {
     color: #004FFF
-
 }
+
 .career__records--paragraph {
     color: #131515
-
 }
+
 .career__stats {
     color: #004FFF
-
 }
+
 .career__stats--paragraph {
     color: #131515
 }
-.footer {
 
-}
-.site__header {
-box-sizing: border-box;
-left: 0;
-padding: 16px;
-position: fixed;
-top: 0;
-width: 100%
-}
-.navigation {
+.footer {}
 
+.site__header {}
+
+.navigation__list, .navigation .navigation__link {
+    text-decoration: none;
+    padding: 0 16px;
 }
+
 .navigation__list {
-list-style: none;
-padding: 0;
-
-}
-.navigation__item {
-display: inline;
-}
-.navigation__link {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
 }
