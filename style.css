@@ -79,12 +79,25 @@ body {
 
 .site__header {}
 
-.navigation__list, .navigation .navigation__link {
+.navigation__item {
     text-decoration: none;
     padding: 0 16px;
 }
 
-.navigation__list {
+.navigation_link:hover {
+color: violet;
+}
+
+.navigation_link:visited {
+   color: tomato ;
+    }
+
+.navigation_link:focus {
+  border: 2px solid yellow
+
+}
+
+    .navigation__list {
     display: flex;
     align-items: center;
     justify-content: center;
