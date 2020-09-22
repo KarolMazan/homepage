@@ -27,3 +27,20 @@ switch (age) {
         console.log(`masz ${age} lat`)
     break;
 }
+
+const welcome = (name, age) => {
+    console.log(`Witaj ${name}, mam ${age}!!!`);
+}
+
+welcome('Karol', 25);
+
+welcome(name, age);
+
+const button = document.querySelector('.title__button--js');
+console.log(button)
+
+
+button.addEventListener('click', (e) => {
+    const header = document.querySelector('.title__js');
+    header.innerHTML = 'THE CHOSEN ONE'
+});
