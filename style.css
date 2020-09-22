@@ -15,6 +15,24 @@ body {
     color: #004FFF;
 }
 
+.generals__header::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: tomato;
+    border-radius: 50%;
+
+}
+
+.generals__header::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: tomato;
+    border-radius: 50%;}
+
 .generals {
     color: rgb(0, 0, 0);
 }
